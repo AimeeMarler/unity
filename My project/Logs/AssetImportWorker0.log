@@ -15,7 +15,7 @@ C:/Users/AimeeMarler/Downloads/Unity Projects/unity/My project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60238
+58490
 Successfully changed project path to: C:/Users/AimeeMarler/Downloads/Unity Projects/unity/My project
 C:/Users/AimeeMarler/Downloads/Unity Projects/unity/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/AimeeMarler/Downloads/Unity Projects/unity/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16316] Host "[IP] 10.5.5.22 [Port] 0 [Flags] 2 [Guid] 118289085 [EditorId] 118289085 [Version] 1048832 [Id] WindowsEditor(7,SD-CK9G2Z3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [67700] Host "[IP] 10.5.5.22 [Port] 0 [Flags] 2 [Guid] 1291990038 [EditorId] 1291990038 [Version] 1048832 [Id] WindowsEditor(7,SD-CK9G2Z3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16316] Host "[IP] 10.5.5.22 [Port] 0 [Flags] 2 [Guid] 118289085 [EditorId] 118289085 [Version] 1048832 [Id] WindowsEditor(7,SD-CK9G2Z3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [67700] Host "[IP] 10.5.5.22 [Port] 0 [Flags] 2 [Guid] 1291990038 [EditorId] 1291990038 [Version] 1048832 [Id] WindowsEditor(7,SD-CK9G2Z3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
-Refreshing native plugins compatible for Editor in 5.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.29f1 (8d510ca76d2b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Resources/UnitySubsystems
@@ -70,43 +70,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003718 seconds.
-- Loaded All Assemblies, in  0.214 seconds
+Registered in 0.003813 seconds.
+- Loaded All Assemblies, in  0.329 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.158 seconds
-Domain Reload Profiling: 370ms
-	BeginReloadAssembly (69ms)
+- Finished resetting the current domain, in  0.169 seconds
+Domain Reload Profiling: 497ms
+	BeginReloadAssembly (174ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (83ms)
-		LoadAssemblies (67ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (86ms)
+		LoadAssemblies (173ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (82ms)
-			TypeCache.Refresh (81ms)
-				TypeCache.ScanAssembly (73ms)
+		AnalyzeDomain (85ms)
+			TypeCache.Refresh (84ms)
+				TypeCache.ScanAssembly (76ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (158ms)
+	FinalizeReload (170ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (125ms)
+		SetupLoadedEditorAssemblies (133ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (84ms)
+			ProcessInitializeOnLoadAttributes (90ms)
 			ProcessInitializeOnLoadMethodAttributes (30ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 370ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.379 seconds
-Refreshing native plugins compatible for Editor in 2.14 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.411 seconds
+Refreshing native plugins compatible for Editor in 2.17 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.365 seconds
-Domain Reload Profiling: 743ms
-	BeginReloadAssembly (94ms)
+- Finished resetting the current domain, in  0.403 seconds
+Domain Reload Profiling: 812ms
+	BeginReloadAssembly (100ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (12ms)
-	RebuildCommonClasses (20ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (227ms)
-		LoadAssemblies (181ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (254ms)
+		LoadAssemblies (202ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (103ms)
-			TypeCache.Refresh (90ms)
-				TypeCache.ScanAssembly (82ms)
-			ScanForSourceGeneratedMonoScriptInfo (9ms)
+		AnalyzeDomain (112ms)
+			TypeCache.Refresh (100ms)
+				TypeCache.ScanAssembly (91ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (365ms)
+	FinalizeReload (403ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (279ms)
+		SetupLoadedEditorAssemblies (307ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
+			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (35ms)
-			ProcessInitializeOnLoadAttributes (223ms)
-			ProcessInitializeOnLoadMethodAttributes (11ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (244ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.62 seconds
-Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.51 seconds
+Refreshing native plugins compatible for Editor in 2.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3094 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (57.6 KB). Loaded Objects now: 3554.
-Memory consumption went from 120.1 MB to 120.0 MB.
-Total: 1.980100 ms (FindLiveObjects: 0.128000 ms CreateObjectMapping: 0.037800 ms MarkObjects: 1.741800 ms  DeleteObjects: 0.071600 ms)
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (57.7 KB). Loaded Objects now: 3558.
+Memory consumption went from 120.2 MB to 120.2 MB.
+Total: 1.871800 ms (FindLiveObjects: 0.131200 ms CreateObjectMapping: 0.039400 ms MarkObjects: 1.631700 ms  DeleteObjects: 0.068600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -182,53 +182,53 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.291 seconds
-Refreshing native plugins compatible for Editor in 2.14 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.272 seconds
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.608 seconds
-Domain Reload Profiling: 897ms
-	BeginReloadAssembly (104ms)
+- Finished resetting the current domain, in  0.797 seconds
+Domain Reload Profiling: 1068ms
+	BeginReloadAssembly (97ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (138ms)
-		LoadAssemblies (180ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (128ms)
+		LoadAssemblies (172ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (6ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (4ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (608ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (798ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (301ms)
+		SetupLoadedEditorAssemblies (296ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
+			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (39ms)
-			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadAttributes (230ms)
 			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 3.21 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (31.7 KB). Loaded Objects now: 3561.
-Memory consumption went from 119.1 MB to 119.1 MB.
-Total: 1.951500 ms (FindLiveObjects: 0.152500 ms CreateObjectMapping: 0.047600 ms MarkObjects: 1.712500 ms  DeleteObjects: 0.038100 ms)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3561.
+Memory consumption went from 119.2 MB to 119.2 MB.
+Total: 1.753200 ms (FindLiveObjects: 0.130500 ms CreateObjectMapping: 0.040100 ms MarkObjects: 1.549100 ms  DeleteObjects: 0.032700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -246,567 +246,55 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 526366.557995 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ccd2bc2c10e2d7dabb59f49b8bd8d3') in 0.019499 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 48.302504 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e4c50599d8cd5330b901ed945df46d') in 0.001296 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 20.954995 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df778f6b220c5d431e474ef4da907bc5') in 0.001150 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 14.919219 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc34da9dbec813a137a471689a0fefb') in 0.001217 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 1.624363 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a3463884b7df91a61d5e26cca9ca42') in 0.001913 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 40.389120 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578353d80bf0ddfbb7a8d06450931834') in 0.044872 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 16.779488 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8397f5998f2d2af6910a995264ae90a0') in 0.022722 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 23.477813 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02015292d2afe94f4b240ee538c0fb88') in 0.008918 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 3.434146 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f0667acd1c2ade588c95c664e3c6fc') in 0.005505 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 3.010367 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9ccafe511b1ccc894adb24efdea0e0') in 0.005548 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 2.817762 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057d0a59c9a6b2d9e22ec41c46cd6a77') in 0.004639 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 5.631821 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56feaa82a00ce9148c17774b5758e3f') in 0.006544 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 3.827376 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9d51d88925676452a3679d78dc1430') in 0.004855 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 17.520855 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775b01a224fb6b1bb8d6f22ca9bfc12e') in 0.008516 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 0.404991 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8697942364b70cae4be42ebbab5bb05e') in 0.012038 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.388756 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079c40bf4478ca03569a4eb3456b5d30') in 0.009266 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 23.559669 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad4960efef7476a27c20c25488f4809') in 0.006531 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 3.818802 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ccf75ae8e57cdb80c41070952e7566') in 0.005999 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 2.013101 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695434ecc0d9688ab75ba629f8bd986e') in 0.004950 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 6.438074 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9342dbc645136c42b8c00072bab67c04') in 0.005673 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 1.800221 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece57b1592eab80207316a1243153096') in 0.007695 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 11.037535 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1ae55378369391044c9062693b1b74') in 0.005659 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 11.679836 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bda68cacfe52deac37a2d716d1e856') in 0.006764 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 1.809892 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5dedfecdb2a69848e2ec7359ba6fdb0') in 0.005728 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 5.233643 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53add186500c0fd515d3cd7f18ffe6d8') in 0.005600 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 2.609746 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39003a94c12e2ba2f7c16ab058a84f55') in 0.006789 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 2.007751 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027c29afb6027a8000ae4989de2b5eb7') in 0.005366 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 1.805620 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f646cef28ed03f423378cd0558d8ff78') in 0.005823 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 5.227253 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac30e7ff3a15834bf8927fa874d9d55') in 0.005104 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 1.596279 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17be02574fb73bfaa4f05a129bac5a56') in 0.007040 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 4.021588 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429c755f128249288ad7b81534ed3581') in 0.005072 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 8.451637 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5262c4dc577d99d0ce4acd58f732022') in 0.005486 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 16.992691 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3bfe3a0bf11b9b818f25dc9b2f4065') in 0.006171 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 2.803590 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d380b28b44de91bcc2fa1053a3cdc0') in 0.006119 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 2.006481 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf16b509d2644c36e9c0b900d3051814') in 0.006061 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 13.098325 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be78eaea428a7ff951ae176474d6cb97') in 0.006644 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 6.046754 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef7ada082d391ac473ee10597641dc4') in 0.007706 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 8.645833 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d2afb18012c43ceef0852b64255c73') in 0.005411 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 4.842516 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feec446564257af61eb51d7bb51646fd') in 0.007777 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 5.423796 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54146ee93bef7b0499a5f03dd3afe3ef') in 0.007074 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 1.194658 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31a6fb48823f14fb4045081037c99b4') in 0.007939 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 6.234137 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35454f0a5709e6e5fe3d80dd50326f82') in 0.005747 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 3.007140 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11483b1573beeb42a5ef5a98eb0bdc86') in 0.006000 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 11.661806 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588024c29e72e4ee84621614f05a01fc') in 0.005677 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 11.859304 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e024f8a521c8471f7a0f7a20aa7f0c') in 0.006120 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 3.618231 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4630065a32970c71932411b1cf554e20') in 0.005465 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 3.224073 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0c731165b20c0fd46b340282702f57') in 0.005567 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 15.650293 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b13c7d8b5eb9d09cd0132b5eb4ddd17') in 0.006438 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 1.804634 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed362d77ac479f89e68be2c4e6fe23c9') in 0.005485 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 4.828205 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce637450b3061b9d0be14aefe760b0a') in 0.005486 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 3.014314 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83284067d80fe475ef93231397be36bc') in 0.006477 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 3.215254 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9513b0088e9ea0d1c5fce2b0bdaf1f') in 0.005590 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 5.024748 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55409663e688540218a9ce5dbf813f70') in 0.005916 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 10.838926 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83a5d1ff6066161de62dfb064e15062') in 0.008349 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 13.252431 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fec39613a51d8d9f44b4b48725b170') in 0.005798 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 6.019839 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ee0b35c9cfa94235bde8c457ea3c16') in 0.005100 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 2.607122 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13aeba397f0f8207219776ae7dbda3da') in 0.008238 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 2.012490 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c67467323bf04ef006acbda40b70fc') in 0.004986 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 5.024550 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdc69880c12643f411147235cb2c9dd') in 0.005692 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 1.612054 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3a8b0bde203f328aa7d09b88e43229') in 0.006828 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 5.021863 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d53a54aa552bbea90ff112c5093704') in 0.006705 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 27.765445 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9751986c7ef9f927b863d7e1019033d') in 0.006855 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 7.464210 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86f026b529a62c45c103ef73df57d69') in 0.005867 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 67.589440 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e270b87fab33057837d2c0bd81301a') in 0.007643 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 35
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.274 seconds
-Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.271 seconds
+Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.560 seconds
-Domain Reload Profiling: 832ms
-	BeginReloadAssembly (100ms)
+- Finished resetting the current domain, in  0.613 seconds
+Domain Reload Profiling: 883ms
+	BeginReloadAssembly (99ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (18ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (128ms)
-		LoadAssemblies (174ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (120ms)
+		LoadAssemblies (167ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (8ms)
 			TypeCache.Refresh (4ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (560ms)
+	FinalizeReload (614ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (285ms)
+		SetupLoadedEditorAssemblies (310ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (37ms)
-			ProcessInitializeOnLoadAttributes (223ms)
-			ProcessInitializeOnLoadMethodAttributes (14ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (243ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (31.7 KB). Loaded Objects now: 3572.
-Memory consumption went from 123.5 MB to 123.4 MB.
-Total: 1.898800 ms (FindLiveObjects: 0.142000 ms CreateObjectMapping: 0.042100 ms MarkObjects: 1.676300 ms  DeleteObjects: 0.037700 ms)
+Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3564.
+Memory consumption went from 119.2 MB to 119.2 MB.
+Total: 1.824400 ms (FindLiveObjects: 0.130200 ms CreateObjectMapping: 0.038700 ms MarkObjects: 1.621500 ms  DeleteObjects: 0.033300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -826,53 +314,53 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.266 seconds
-Refreshing native plugins compatible for Editor in 3.28 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.502 seconds
+Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.657 seconds
-Domain Reload Profiling: 921ms
-	BeginReloadAssembly (96ms)
+- Finished resetting the current domain, in  0.871 seconds
+Domain Reload Profiling: 1372ms
+	BeginReloadAssembly (106ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
+		CreateAndSetChildDomain (24ms)
 	RebuildCommonClasses (18ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (125ms)
-		LoadAssemblies (167ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (352ms)
+		LoadAssemblies (399ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (11ms)
-			TypeCache.Refresh (5ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (4ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (657ms)
+	FinalizeReload (871ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (317ms)
+		SetupLoadedEditorAssemblies (315ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (43ms)
-			ProcessInitializeOnLoadAttributes (244ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (249ms)
 			ProcessInitializeOnLoadMethodAttributes (16ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (31.7 KB). Loaded Objects now: 3575.
-Memory consumption went from 123.7 MB to 123.7 MB.
-Total: 1.985400 ms (FindLiveObjects: 0.138600 ms CreateObjectMapping: 0.039800 ms MarkObjects: 1.770900 ms  DeleteObjects: 0.035600 ms)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3567.
+Memory consumption went from 119.2 MB to 119.2 MB.
+Total: 2.083300 ms (FindLiveObjects: 0.164300 ms CreateObjectMapping: 0.042500 ms MarkObjects: 1.836900 ms  DeleteObjects: 0.039100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -891,9 +379,141 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 202.283367 seconds.
+  Time since last request: 615613.945755 seconds.
   path: Assets/Prefabs/Car.prefab
   artifactKey: Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3957a0d58f3d467d821f16e40fb3444c') in 0.049736 seconds
+Start importing Assets/Prefabs/Car.prefab using Guid(e2a3b2bbccf26a04fba2541b18af7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb65c7b5cf1b23da56f02f19915fee87') in 0.076219 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 36
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.279 seconds
+Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.855 seconds
+Domain Reload Profiling: 1132ms
+	BeginReloadAssembly (104ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (126ms)
+		LoadAssemblies (176ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (855ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (323ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (255ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.7 KB). Loaded Objects now: 3578.
+Memory consumption went from 123.5 MB to 123.4 MB.
+Total: 1.815500 ms (FindLiveObjects: 0.125400 ms CreateObjectMapping: 0.038900 ms MarkObjects: 1.616600 ms  DeleteObjects: 0.033900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.281 seconds
+Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.733 seconds
+Domain Reload Profiling: 1013ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (128ms)
+		LoadAssemblies (175ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (734ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (331ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3581.
+Memory consumption went from 123.7 MB to 123.7 MB.
+Total: 2.310100 ms (FindLiveObjects: 0.183900 ms CreateObjectMapping: 0.117300 ms MarkObjects: 1.966700 ms  DeleteObjects: 0.041100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

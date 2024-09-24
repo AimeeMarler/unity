@@ -178,6 +178,7 @@ GameObject:
   - component: {fileID: 6607525353564217064}
   - component: {fileID: 9073011746602684621}
   - component: {fileID: 6285192356200805212}
+  - component: {fileID: 2695494243006769765}
   m_Layer: 0
   m_Name: CarBody
   m_TagString: Untagged
@@ -264,6 +265,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   amplitude: 0.04
   frequency: 30
+--- !u!114 &2695494243006769765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6323849453553776444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 256874734b7d60741879629095d71d1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxAngle: 15
+  carBehaviour: {fileID: 0}
 --- !u!1 &7403789980497807934
 GameObject:
   m_ObjectHideFlags: 0
@@ -357,6 +372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6316154952079359959}
   - component: {fileID: 1134029483887980418}
+  - component: {fileID: 6296997098795707307}
   m_Layer: 0
   m_Name: Car
   m_TagString: Untagged
@@ -401,6 +417,27 @@ MonoBehaviour:
   deceleration: 10
   turnRate: 180
   onlyTurnWhileMoving: 1
+--- !u!65 &6296997098795707307
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8453103786170460311}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.76033753, y: 0.875512, z: 1.4823498}
+  m_Center: {x: -0.001288712, y: 0.12586516, z: 0.0070745945}
 --- !u!1 &9124383048627899170
 GameObject:
   m_ObjectHideFlags: 0
